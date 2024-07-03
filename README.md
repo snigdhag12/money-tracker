@@ -1,24 +1,70 @@
-//notes in readme
+# MERN Money Tracker Clone Project 📊💰
 
-things to do now:
+This project is a clone of a MERN (MongoDB, Express.js, React.js, Node.js) Money Tracker application. It allows users to track their spending and earnings, view transactions, and calculate their balance. [Youtube Tutorial](https://youtu.be/aD1c_YmHsFg?si=SiummfgHvtr5kq1A)
 
-1. Make formatting better
-2. Make size of things accoring to view port
-3. Make it compatible with phone.
-4. Go through code step by step to understand what all is used and alternative
-5. SCRAM Algo
-6. See what all new features you want to add
-7. see if you can make the view more dynamic.
-8. immidiate update of balance when transactions get added
-9. giving transactions a tag(colored) -> filter on basis of Category -> category charts
-10. add that plus sign for positive transactions
-11. Error handling
-12. new space for adding Price
-13. CRUD Operations on transactions
-14. add unique key part to remove the warning
-15. Order on basis of price/datetime
-16. Accessibilty + Localisation
-17. Profiling? Security Aspect
-18. getting stuff out of Local?
-19. Scrolling/ Pagination see what to do.
-20. see to replace datetime element
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Upcoming Advanced Features](#upcoming-advanced-features)
+
+## Introduction
+
+This application is built using the MERN stack, which is a popular combination of technologies for building full-stack web applications. The MERN stack consists of:
+- **MongoDB**: A NoSQL database for storing data.
+- **Express.js**: A web application framework for Node.js.
+- **React.js**: A JavaScript library for building user interfaces.
+- **Node.js**: A runtime environment for executing JavaScript code server-side.
+
+### Why MERN?
+
+The MERN stack is chosen for its flexibility, scalability, and ease of use in developing modern web applications. It allows developers to work with JavaScript across the entire application stack, which can streamline development and maintenance.
+
+## Technologies Used
+
+- **Frontend**:
+  - React.js
+  - HTML/CSS
+
+- **Backend**:
+  - Node.js
+  - Express.js
+  - MongoDB (via Mongoose)
+
+## Features
+
+- **Add Transaction**: User can add new transactions with details such as name, price, datetime, and description.
+- **Display Transactions**: Transactions are displayed in a list format, showing name, description, price, and datetime.
+- **Balance Calculation**: The application calculates and displays the current balance based on all transactions.
+- **Error Handling**: Basic error handling is implemented for adding transactions and fetching transaction data.
+- **Responsive Design**: The application is designed to be responsive and works well across different devices.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+```bash
+   git clone <repository-url>
+   cd money-tracker-clone
+   npm install
+   npm start
+```
+
+### Access the application
+Open your web browser and navigate to `http://localhost:3000` to view the application.
+
+## Upcoming Advanced Features
+This clone project serves as a foundation for an upcoming advanced version of the MERN Money Tracker application. Planned features include:
+
+1. Improved UI/UX with dynamic and responsive views.
+2. Real-time balance updates upon adding transactions.
+3. Categorization of transactions with tags.
+4. Filtering transactions based on categories and generating category charts.
+5. Sorting columns on the basis of name, price or datetime.
+6. All CRUD operations supported for transactions (Edit/Delete transactions).
+7. Enhanced error handling and validation.
+8. Pagination for displaying a large number of transactions.
+9. Localization and accessibility improvements.
+
+Stay tuned for updates and enhancements as the project evolves! 🚀
